@@ -1,5 +1,5 @@
 let max = Number.MAX_VALUE;
-var maximumBeauty = function (items, queries) {
+const maximumBeauty = function (items, queries) {
   let res = [];
   let sorted = createPriceRanges(items);
   for (i = 0; i < queries.length; i++) {

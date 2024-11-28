@@ -1,4 +1,4 @@
-var canSortArray = function (nums) {
+const canSortArray = function (nums) {
   let test = Array.from(nums, (i) => i.toString(2).replaceAll("0", ""));
   let res = true;
   for (i = 0; i < nums.length - 1; i++) {

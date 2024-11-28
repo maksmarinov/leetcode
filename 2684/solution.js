@@ -1,4 +1,4 @@
-var maxMoves = function (grid) {
+const maxMoves = function (grid) {
   const rows = grid.length;
   const cols = grid[0].length;
   let dirs = [-1, 0, 1];

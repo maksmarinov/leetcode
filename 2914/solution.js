@@ -1,4 +1,4 @@
-var minChanges = function (s) {
+const minChanges = function (s) {
   let beautiful = 0;
   if (s.length % 2 != 0) {
     return false;
