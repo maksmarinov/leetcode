@@ -61,4 +61,4 @@ const minimumObstacles = function (grid) {
   return leastBreaks;
 };
 //
-//https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/?envType=daily-question&envId=2024-11-28
+//https://leetcode.com/problems/minimum-obstacle-removal-to-reach-corner/
