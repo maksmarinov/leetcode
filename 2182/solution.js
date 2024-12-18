@@ -14,7 +14,6 @@ var repeatLimitedString = function (s, repeatLimit) {
 
   while (containers.length) {
     let letter = containers[0];
-    let nextLetter = containers[2];
     if (containers[1] - repeatLimit < 1) {
       let x = containers[1];
       while (x > 0) {
