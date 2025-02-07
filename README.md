@@ -3,6 +3,9 @@
 This repository contains my solutions to various coding challenges from LeetCode.
 
 #Example 2290 
+
+```javascript
+
 const minimumObstacles = function (grid) {
   let leastBreaks = Infinity;
   const maxY = grid.length;
